@@ -16,3 +16,6 @@ jobs:
         run: echo "$Greeting $First_Name. Today is $DAY_OF_WEEK!"
         env:
           First_Name: Beautiful
+      - name: List files in the repository
+        run: |
+          ls ${{ github.workspace }}
