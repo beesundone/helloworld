@@ -19,3 +19,9 @@ jobs:
       - name: List files in the repository
         run: |
           ls ${{ github.workspace }}
+  list_files:
+    runs-on: ubuntu-latest
+    steps:
+      - name: List files in the repository
+        run: |
+          ls ${{ github.workspace }}
